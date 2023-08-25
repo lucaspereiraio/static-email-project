@@ -22,16 +22,15 @@
       p {
         font-family: Arial, sans-serif;
       }
-      table,
-      td {
-        border: 2px solid #000000 !important;
-      }
+      /* Table view */
+      /* table,td{ border: 2px solid #000 !important;} */
     </style>
   </head>
   <body style="margin: 0; padding: 0; background: #f2f2f2">
-    <table align="center" style="max-width: 600px;">
+    <table align="center" role="presentation" style="max-width: 650px; padding: 20px 20px 15px 20px;">
       <tr>
         <td>
+          <!-- HEADER -->
           <table
             role="presentation"
             style="
@@ -44,7 +43,7 @@
             <tr
               style="
                 width: 100%;
-                max-width: 602px;
+                max-width: 650px;
                 padding: 0;
                 border-collapse: collapse;
                 border: 0 solid;
@@ -53,9 +52,9 @@
             >
               <td
                 align="center"
-                style="padding: 30px 30px 0px 30px; background: #f2f2f2"
+                style="
+                background: #f2f2f2"
               >
-                <!-- HEADER -->
                 <img
                   src="/assets/header.png"
                   alt="e-mail's header"
@@ -73,7 +72,7 @@
                 border-spacing: 0;
               "
             >
-              <td style="padding: 0px; color: #000; display: block;">
+              <td style="padding: 0px; color: #000; display: block; margin: 0 35px;">
                 <img
                   src="/assets/nrf.png"
                   alt="nrf 2020 picture"
@@ -83,13 +82,13 @@
               </td>
             </tr>
             <tr>
-              <td style="text-decoration: none">
+              <td style="text-decoration: none;">
                 <p
                   style="
                     color: #000;
-                    font-size: 22px;
+                    font-size: 33px;
                     font-weight: bold;
-                    margin-top: 10px;
+                    margin: 10px 35px 0 35px;
                     display: block;
                   "
                 >
@@ -97,11 +96,11 @@
                 </p>
                 <p
                   style="
-                    font-size: 13px;
+                    font-size: 20px;
                     line-height: 1.2;
-                    color: #000;
+                    color: #74787a;
                     display: block;
-                    margin: 5px 0 15px 0;
+                    margin: 10px 35px 15px 35px;
                   "
                 >
                   O maior evento sobre varejo do mundo mostrando as tendências,
@@ -109,16 +108,17 @@
                 </p>
                 <p
                   style="
-                    font-size: 12px;
+                    font-size: 14px;
                     font-style: italic;
                     line-height: 1.2;
                     color: #a3a3a3;
                     display: block;
-                    margin: 5px 0;
+                    margin: 0 35px 10px 35px;
                   "
                 >
                   Fonte: CMO ADOBE
                 </p>
+                <hr style="background: linear-gradient(to right, #e22b5c, #6c5ba3); height: 5px; max-width: 357px; width: auto; border: 0; margin: 0 35px 40px 35px;">
               </td>
             </tr>
             <table
@@ -128,14 +128,14 @@
                 border-collapse: collapse;
                 border: 0;
                 border-spacing: 0;
-                margin-right: 15px;
               "
             >
+            <!-- Second Row -->
               <tr>
                 <td
                   style="
                     max-width: 260px;
-                    padding: 0;
+                    padding: 0 0 0 35px;
                     vertical-align: top;
                     color: #000;
                     max-width: 100%;
@@ -144,15 +144,17 @@
                   <img
                     src="/assets/nba.png"
                     alt="kobe bryant on nba logo"
-                    width="100%"
+                    max-width="170px"
+                    width="auto"
                     height="auto"
                   />
                   <p
                     style="
                       text-decoration: none;
-                      font-size: 18px;
+                      font-size: 24px;
                       color: #000;
                       font-weight: bold;
+                      margin: 5px 0;
                     "
                   >
                     Petição para colocar Kobe Bryant no logo da NBA.
@@ -160,31 +162,25 @@
                   <p
                     style="
                       text-decoration: none;
-                      font-size: 12px;
+                      font-size: 14px;
                       font-style: italic;
                       line-height: 1.2;
                       color: #a3a3a3;
                       display: block;
-                      margin: 5px 0;
+                      margin: 15px 0 10px 0;
                     "
                   >
                     Fonte: Daily Mail
                   </p>
                   <hr
-                    style="
-                      background: linear-gradient(to right, #74c7cd, #39b38b);
-                      height: 5px;
-                      max-width: 160px;
-                      width: 100%;
-                      border: 0;
-                      margin: 0;
-                    "
+                  style="background: linear-gradient(to right, #76c6cf, #6762a7); height: 5px; max-width: 160px; width: auto; border: 0; margin: 0px;"
                   />
                 </td>
+                <td style="padding: 17px;"></td>
                 <td
                   style="
                     max-width: 260px;
-                    padding: 0;
+                    padding: 0 35px 0 0;
                     vertical-align: top;
                     color: #000;
                     max-width: 100%;
@@ -193,15 +189,17 @@
                   <img
                     src="/assets/whatsapp.png"
                     alt="whatsapp logo"
-                    width="100%"
+                    max-width="170px"
+                    width="auto"
                     height="auto"
                   />
                   <p
                     style="
                       text-decoration: none;
-                      font-size: 18px;
+                      font-size: 24px;
                       color: #000;
                       font-weight: bold;
+                      margin: 5px 0;
                     "
                   >
                     WhatsApp terá função de pagamentos em 2020.
@@ -209,12 +207,12 @@
                   <p
                     style="
                       text-decoration: none;
-                      font-size: 12px;
+                      font-size: 14px;
                       font-style: italic;
                       line-height: 1.2;
                       color: #a3a3a3;
                       display: block;
-                      margin: 5px 0;
+                      margin: 15px 0 10px 0;
                     "
                   >
                     Fonte: Proxxima
@@ -224,7 +222,7 @@
                       background: linear-gradient(to right, #74c7cd, #39b38b);
                       height: 5px;
                       max-width: 160px;
-                      width: 100%;
+                      width: auto;
                       border: 0;
                       margin: 0;
                     "
@@ -232,6 +230,7 @@
                 </td>
               </tr>
             </table>
+            <!-- Footer -->            
             <table
               role="presentation"
               style="
@@ -242,17 +241,16 @@
                 font-size: 9px;
                 font-family: Arial, sans-serif;
                 background: #fc4c02;
-                margin-bottom: 10px;
+                margin: 20px 0;
               "
             >
               <tr align="center">
-                <td><img src="/assets/footer.png" alt="e-mail's footer" /></td>
+                <td><img src="/assets/footer.png" alt="e-mail's footer" style="padding: 20px 0 20px 30px;"/></td>
               </tr>
             </table>
             <tr>
               <td
                 style="
-                  padding: 0 0 15px 0;
                   margin: 0 0 10px 0;
                   width: 50%;
                   background-color: #f5f5f5;
@@ -262,17 +260,17 @@
                 <p
                   align="center"
                   style="
-                    margin: 0;
+                    margin: 0 0 0 30px;
                     font-size: 12px;
                     line-height: 16px;
                     font-family: Arial, sans-serif;
-                    color: #000;
+                    color: #646869;
                   "
                 >
                   Copyright &reg; Mandarin. Todos os direitos reservados
                   <br />
                   Caso não deseje mais receber nossos e-mails, por favor
-                  <a href="#" style="color: #000000; text-decoration: underline"
+                  <a href="#" style="color: #646869; text-decoration: underline"
                     >clique aqui</a
                   >.
                 </p>
