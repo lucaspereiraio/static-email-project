@@ -1,2 +1,2 @@
-# email-project-html5
+# static-email-project
  
